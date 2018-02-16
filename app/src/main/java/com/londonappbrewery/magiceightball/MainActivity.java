@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         final ImageView ballDisplay = findViewById(R.id.image_eightBall);
 
+        // R.drawable.ball1 returns image resource id in int
         final int[] ballArray = {
                 R.drawable.ball1,
                 R.drawable.ball2,
